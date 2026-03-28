@@ -1,0 +1,34 @@
+# Session transcripts and runtime data
+projects/**/*.jsonl
+projects/**/subagents/
+projects/**/tool-results/
+
+# Cache and temp
+cache/
+debug/
+file-history/
+shell-snapshots/
+paste-cache/
+history.jsonl
+mcp-needs-auth-cache.json
+backups/
+todos/
+plans/
+
+# Managed by Claude Code (not user-edited)
+plugins/
+skills/gstack
+skills/gstack-upgrade
+skills/browse
+skills/qa
+skills/qa-only
+skills/retro
+skills/review
+skills/ship
+skills/plan-ceo-review
+skills/plan-design-review
+skills/plan-eng-review
+skills/design-consultation
+skills/design-review
+skills/document-release
+skills/setup-browser-cookies
